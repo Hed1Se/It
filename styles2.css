@@ -1,9 +1,9 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial;
   }
 table {
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid rgb(173, 16, 221);
     text-align: center;
 	vertical-align: middle;
   }
@@ -15,7 +15,7 @@ table {
     margin-bottom: 16px;
   }
   thead {
-    background-color: #333;
+    background-color: rgb(20, 230, 143);
     color: white;
     font-size: 0.875rem;
 	text-transform: uppercase;
@@ -35,17 +35,17 @@ table {
     font-weight: bold;
   }
   tbody tr:nth-child(odd) {
-    background-color: #fff;
+    background-color: rgb(38, 115, 167);
   }
   
   tbody tr:nth-child(even) {
-    background-color: #eee;
+    background-color: rgb(31, 180, 180);
   }
   tbody th {
-    background-color: #36c;
-    color: #fff;
+    background-color: rgb(38, 115, 167);
+    color: rgb(2, 5, 22);
     text-align: left;
   }
   tbody tr:nth-child(even) th {
-    background-color: #25c;
+    background-color: rgb(31, 180, 180);
   }
